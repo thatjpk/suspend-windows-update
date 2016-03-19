@@ -35,7 +35,7 @@ Stuff that happens while Windows Update service is disabled:
  - The "Check for updates" button in the "Update & Security" > "Windows
    Update" section of the Settings app will report an error and offer a
    "Retry" button that also won't work until the service is enabled again.
- - If updates have been downloaded and are waiting for a restart, and manual
+ - If updates have been downloaded and are waiting for a restart, a manual
    restart *will* trigger installation whether the service is disabled or not.
  - A manual restart will not re-enable the update service. So it's critical
    that you re-enable it at some point.
